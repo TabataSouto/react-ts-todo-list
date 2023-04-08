@@ -26,7 +26,7 @@ const App = () => {
         </section>
         <section>
           <h2>Suas tarefas:</h2>
-          <TaskList />
+          <TaskList taskList={taskList} />
         </section>
       </main>
       <Footer />
